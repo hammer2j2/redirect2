@@ -1,0 +1,12 @@
+#
+#
+# http://programmingcheatsheet.wordpress.com/2013/03/14/create-new-maven-project-from-scratch/
+#
+#  http://blog.sonatype.com/2009/09/maven-tips-and-tricks-using-github/#.UtYl-PbSyL0
+
+  mvn archetype:generate -DgroupId=com.slamgarden.webtest -DartifactId=redirect -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+ # copy sources, which is the Redirect directory created elsewhere,
+ #  into /src/main/java/com/slamgarden/webtest/
+
+  mvn compile

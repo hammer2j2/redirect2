@@ -1,0 +1,19 @@
+   mvn clean
+
+   git init
+
+   git add -A
+
+   git commit -m "Importing the refactored project"
+
+  ssh-agent /bin/bash
+
+  ssh-add /Users/mitchhan/.ssh/github_rsa
+
+  git remote add origin git@github.com:hammer2j2/redirect.git
+
+# integrate this branch
+
+  git pull origin master
+
+  git push origin master
